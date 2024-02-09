@@ -1,0 +1,28 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each country.bridges}}
+    <tr>
+      <td>
+        {{name}}
+      </td>
+      <td>
+        {{latitude}}
+      </td>
+      <td>
+        {{longitude}}
+      </td>
+       <td>
+        {{description}}
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
