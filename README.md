@@ -41,18 +41,18 @@ https://prettier.io/
 <h3>To install the application </h3>
 
 ```
-<ul>npm install @hapi/vision</ul>
-<ul>npm install handlebars</ul>
-<ul>npm install @hapi/cookie</ul>
-<ul>npm install dotenv</ul>
+npm install @hapi/vision
+npm install handlebars
+npm install @hapi/cookie
+npm install dotenv
 ```
 
 • Joi is a Node.js module for data validation. 
 
 ```
-<ul>npm install joi</ul>
-<ul>npm install lowdb</ul>
-<ul>npm install joi</ul>
+npm install joi
+npm install lowdb
+npm install joi
 ```
 
 <h3>To use the project </h3>
