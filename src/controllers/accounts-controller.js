@@ -1,21 +1,35 @@
 /* eslint-disable func-names */
+import { UserSpec } from "../models/joi-schemas.js";
 import { db } from "../models/db.js";
 
 export const accountsController = {
   index: {
     auth: false,
     handler: function (request, h) {
-      return h.view("main", { title: "Welcome to Placemark" });
+      return h.view("main", { title: "Welcome to Playlist" });
     },
   },
   showSignup: {
     auth: false,
     handler: function (request, h) {
-      return h.view("signup-view", { title: "Sign up for Placemark" });
+      return h.view("signup-view", { title: "Sign up for Playlist" });
     },
   },
   signup: {
     auth: false,
+    validate: {
+      payload: UserSpec,
+      options: { abortEarly: false },
+      failAction: function (request, h, error) {
+        return h
+          .view("signup-view", {
+            title: "Sign up error",
+            errors: error.details,
+          })
+          .takeover()
+          .code(400);
+      },
+    },
     handler: async function (request, h) {
       const user = request.payload;
       await db.userStore.addUser(user);
@@ -25,7 +39,7 @@ export const accountsController = {
   showLogin: {
     auth: false,
     handler: function (request, h) {
-      return h.view("login-view", { title: "Login to Placemark" });
+      return h.view("login-view", { title: "Login to Playlist" });
     },
   },
   login: {
@@ -42,6 +56,7 @@ export const accountsController = {
   },
   logout: {
     handler: function (request, h) {
+      request.cookieAuth.clear();
       return h.redirect("/");
     },
   },

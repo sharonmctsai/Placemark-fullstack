@@ -27,4 +27,12 @@ export const countryController = {
       return h.redirect(`/country/${country._id}`);
     },
   },
+
+  deleteBridge: {
+    handler: async function(request, h) {
+      const country = await db.countryStore.getCountryById(request.params.id);
+      await db.bridgeStore.deleteBridge(request.params.bridgeid);
+      return h.redirect(`/country/${country._id}`);
+    },
+  },
 };

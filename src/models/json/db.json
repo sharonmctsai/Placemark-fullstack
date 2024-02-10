@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "3eef52c2-820e-46d0-bc9e-1acd8e8a9654"
+    },
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "23f42023-af69-4b48-b6df-8e743b645f56"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "_id": "eaedb18e-4028-4433-a56c-d107614072f4"
+    },
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "c1ef9671-37f4-49b0-9625-761002997b40"
+    }
+  ],
+  "countries": [
+    {
+      "userid": "3eef52c2-820e-46d0-bc9e-1acd8e8a9654",
+      "name": "uk",
+      "_id": "90fffb16-332f-4af8-aa6f-3d0d42f36f8e"
+    },
+    {
+      "userid": "3eef52c2-820e-46d0-bc9e-1acd8e8a9654",
+      "name": "ireland",
+      "_id": "260936a4-f256-44fa-b803-d7c67d27ff93"
+    }
+  ],
+  "bridges": [
+    {
+      "name": "London Bridge",
+      "latitude": 53.34,
+      "longitude": -0.08,
+      "description": "Spanned the River Thames between the City of London and Southwark, in central London",
+      "_id": "73d08222-d492-4bc8-9bf1-cb1521184282",
+      "countryid": "0ed8ea00-e3e0-41de-b64d-2d27919c4bb9"
+    }
+  ]
+}
