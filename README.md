@@ -14,6 +14,8 @@ A “point of interest” (POI) is a location for
 which information is available.
 <br>
 
+<h3>API/Testes</h3>
+<li>Basic API</li>
 
 <h3>Models</h3>
 <li>Mem</li>
