@@ -73,7 +73,7 @@ npm install
 npm run start
 ```
 
-<h3>To run the application </h3>
+<h3>To run the test </h3>
 
 ```
 npm run test
