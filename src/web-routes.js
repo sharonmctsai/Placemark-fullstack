@@ -21,5 +21,6 @@ export const webRoutes = [
   { method: "GET", path: "/country/{id}", config: countryController.index },
   { method: "POST", path: "/country/{id}/addbridge", config: countryController.addBridge },
   { method: "GET", path: "/country/{id}/deletebridge/{bridgeid}", config: countryController.deleteBridge},
+  { method: "GET", path: "/{param*}", handler: { directory: { path: "./public" } }, options: { auth: false } }
 
 ];

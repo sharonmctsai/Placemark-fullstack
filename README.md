@@ -51,6 +51,9 @@ npm install dotenv
 -To run unit tests:
 npm install -D mocha
 npm install -D chai
+
+-To display image:
+npm install @hapi/inert
 ```
 
 • Joi is a Node.js module for data validation. 
@@ -73,7 +76,7 @@ npm install
 npm run start
 ```
 
-<h3>To run the application </h3>
+<h3>To run the test </h3>
 
 ```
 npm run test
