@@ -9,8 +9,9 @@ Project deployed on [Render](https://placemark-fullstack-c3al.onrender.com).
 
 <h3>Placemark Features</h3>
 <p>POI (“point of interest”)Characteristics</p>
-*Name
-*Description,Location(Latitude,Longitude)
+* Name
+* Description
+* Location(Latitude,Longitude)
 
 <br>
 A “point of interest” (POI) is a location for
@@ -41,12 +42,25 @@ https://eslint.org/
 * Prettier is an “opinionated” code formatter:<br>
 https://prettier.io/
 
+-To install:
+
+```
+npm install -D eslint
+npm install -D eslint-config-airbnb-base
+npm install -D eslint-config-prettier
+npm install -D eslint-plugin-import
+npm install -D prettier
+```
+
 <h3>To install the application </h3>
 
 ```
 npm install @hapi/vision
 npm install handlebars
+
+-To install cookies plugins:
 npm install @hapi/cookie
+-To install envirinment plugin:
 npm install dotenv
 
 -To run unit tests:
@@ -60,9 +74,12 @@ npm install @hapi/inert
 • Joi is a Node.js module for data validation. 
 
 ```
+server-
+npm install @hapi/hapi
+validation-
 npm install joi
+database-
 npm install lowdb
-npm install joi
 ```
 
 <h3>To use the project </h3>
