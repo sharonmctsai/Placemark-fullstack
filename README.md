@@ -86,11 +86,11 @@ npm run test
 ```
 <h2>Resources</h2>
 
-<ul>Font Awesome</ul>
+* Font Awesome
 https://fontawesome.com/icons
 
-<ul>Bulma Documentation</ul>
+* Bulma Documentation
 https://bulma.io/documentation/
 
-<ul>Render Documentation</ul>
+* Render Documentation
 https://render.com/docs
