@@ -36,11 +36,9 @@ https://nodejs.org/en/
 
 <h2>Code Quality Tools</h2>
 
-<ul>ESLint enforces a range of configurable Javascript standards:</ul>
-
+* ESLint enforces a range of configurable Javascript standards:<br>
 https://eslint.org/
-<ul>Prettier is an “opinionated” code formatter:</ul>
-
+* Prettier is an “opinionated” code formatter:<br>
 https://prettier.io/
 
 <h3>To install the application </h3>
@@ -86,11 +84,11 @@ npm run test
 ```
 <h2>Resources</h2>
 
-* Font Awesome
+* Font Awesome<br>
 https://fontawesome.com/icons
 
-* Bulma Documentation
+* Bulma Documentation<br>
 https://bulma.io/documentation/
 
-* Render Documentation
+* Render Documentation<br>
 https://render.com/docs
