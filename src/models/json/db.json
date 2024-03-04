@@ -35,8 +35,18 @@
     },
     {
       "userid": "95b443be-72c3-4906-80ff-6d007d428e93",
-      "name": "uk",
-      "_id": "d3b3f736-bc13-48e0-b7b5-c1a194b73b1c"
+      "name": "UK",
+      "_id": "d7b949ca-a819-450d-a16f-d93cccf92a63"
+    },
+    {
+      "userid": "56e3a60e-3f90-4761-9bec-12f72a6864e7",
+      "name": "Ireland",
+      "_id": "1abb43ea-07c2-48fb-8bfd-e340be9b6173"
+    },
+    {
+      "userid": "56e3a60e-3f90-4761-9bec-12f72a6864e7",
+      "name": "France",
+      "_id": "a13537a5-a39c-4d23-a4d8-342fee5da51e"
     }
   ],
   "bridges": [
@@ -47,6 +57,38 @@
       "description": "Spanned the River Thames between the City of London and Southwark, in central London",
       "_id": "73d08222-d492-4bc8-9bf1-cb1521184282",
       "countryid": "0ed8ea00-e3e0-41de-b64d-2d27919c4bb9"
+    },
+    {
+      "name": "London Bridge",
+      "latitude": 51.5,
+      "longitude": -0.08,
+      "description": "Spanned the River Thames between the City of London and Southwark, in central London",
+      "_id": "7fbf33bf-62ab-4fa7-bb3a-d15011b88d34",
+      "countryid": "d7b949ca-a819-450d-a16f-d93cccf92a63"
+    },
+    {
+      "name": "O'Connell Bridge",
+      "latitude": 53.34,
+      "longitude": -6.25,
+      "description": " A road bridge spanning the River Liffey in Dublin Ireland",
+      "_id": "06915d60-3771-4445-b281-c912306721c2",
+      "countryid": "1abb43ea-07c2-48fb-8bfd-e340be9b6173"
+    },
+    {
+      "name": "Pont Neuf",
+      "latitude": 48.8,
+      "longitude": 2.34,
+      "description": "The oldest standing bridge across the river Seine in Paris,",
+      "_id": "3ca95bd0-4cd9-4b44-9f78-a8ec083eab91",
+      "countryid": "a13537a5-a39c-4d23-a4d8-342fee5da51e"
+    },
+    {
+      "name": "Ha'penny Bridge",
+      "latitude": 53.34,
+      "longitude": -6.26,
+      "description": "A pedestrian bridge built in May 1816 over the River Liffey",
+      "_id": "dc09b175-6058-47d1-b6ba-3a4196f6f171",
+      "countryid": "1abb43ea-07c2-48fb-8bfd-e340be9b6173"
     }
   ]
 }

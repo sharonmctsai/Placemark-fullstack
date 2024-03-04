@@ -1,13 +1,16 @@
 # Placemark-fullstack
+
+Project deployed on [Render](https://placemark-fullstack-c3al.onrender.com).
+
 <h3>Features</h3>
 <li>User signup/login</li>
 <li>Cookie authentication/User Settings</li>
 
 
 <h3>Placemark Features</h3>
-<ul>POI (“point of interest”)Characteristics</ul>
-<li>Name</li>
-<li>Description,Location(Latitude,Longitude)</li>
+<p>POI (“point of interest”)Characteristics</p>
+*Name
+*Description,Location(Latitude,Longitude)
 
 <br>
 A “point of interest” (POI) is a location for
@@ -81,3 +84,13 @@ npm run start
 ```
 npm run test
 ```
+<h2>Resources</h2>
+
+<ul>Font Awesome</ul>
+https://fontawesome.com/icons
+
+<ul>Bulma Documentation</ul>
+https://bulma.io/documentation/
+
+<ul>Render Documentation</ul>
+https://render.com/docs
