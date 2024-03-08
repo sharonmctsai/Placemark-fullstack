@@ -4,8 +4,7 @@ import { bridgeMemStore } from "./mem/bridge-mem-store.js";
 import { userJsonStore } from "./json/user-json-store.js";
 import { countryJsonStore } from "./json/country-json-store.js";
 import { bridgeJsonStore } from "./json/bridge-json-store.js";
-import { connectMongo } from "./mongo/connect.js";
-import { userMongoStore } from "./mongo/user-mongo-store.js";
+
 
 export const db = {
   userStore: null,
@@ -18,12 +17,6 @@ export const db = {
         this.userStore = userJsonStore;
         this.countryStore = countryJsonStore;
         this.bridgeStore = bridgeJsonStore;
-        break;
-      case "mongo":
-        this.userStore = userMongoStore;
-        this.countryStore = null;
-        this.bridgeStore = null;
-        connectMongo();
         break;
       default:
         this.userStore = userMemStore;
