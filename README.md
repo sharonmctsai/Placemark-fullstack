@@ -120,6 +120,5 @@ https://render.com/docs
 ![Screenshot 2024-03-04 at 21 25 40](https://github.com/sharonmctsai/Placemark-fullstack/assets/108837318/3ecfab0b-612f-4c18-93fd-2f98753877e0)
 ![Screenshot 2024-03-08 at 21 26 42](https://github.com/sharonmctsai/Placemark-fullstack/assets/108837318/c908eb9e-099a-4bcd-9400-cd1cd67c0b2c)
 
-![Screenshot 2024-03-04 at 21 25 44](https://github.com/sharonmctsai/Placemark-fullstack/assets/108837318/e0216ab6-b40e-4749-b57f-677b290273a0)
 ![Screenshot 2024-03-04 at 21 25 51](https://github.com/sharonmctsai/Placemark-fullstack/assets/108837318/4d86b515-7c56-4c7f-aa57-66aefed32c17)
 ![Screenshot 2024-03-08 at 21 26 28](https://github.com/sharonmctsai/Placemark-fullstack/assets/108837318/680e24aa-3087-4c52-81db-b35019eddf6d)
