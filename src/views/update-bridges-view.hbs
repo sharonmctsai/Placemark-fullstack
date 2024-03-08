@@ -1,0 +1,28 @@
+
+{{> menu}}
+
+<form class="box" action="/country/{{bridge.countryid}}/bridge/{{bridge._id}}" method="POST">
+  <label class="label">Enter Updated Bridge Details:</label>
+  <div class="field is-horizontal has-background-warning-light">
+    <div class="field-body">
+         <div class="field">
+      <label>Bridge Name</label>
+      <input placeholder="Bridge Name" type="text" name="name" value="{{bridge.name}}">
+    </div>
+    <div class="field">
+      <label>Latitude</label>
+      <input placeholder="Latitude" type="text" name="latitude" value="{{bridge.latitude}}">
+    </div>
+    <div class="field">
+      <label>Longitude</label>
+      <input placeholder="Longitude" type="text" name="longitude" value="{{bridge.longitude}}">
+    </div>
+    <div class="field">
+      <label>Description</label>
+      <input placeholder="Description" type="text" name="description" value="{{bridge.description}}">
+    </div>
+
+    </div>
+  </div>
+  <button class="button is-link">Update Bridge</button>
+</form>

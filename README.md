@@ -5,7 +5,7 @@ Project deployed on [Render](https://placemark-fullstack-c3al.onrender.com).
 <h3>Features</h3>
 <li>User signup/login</li>
 <li>Cookie authentication/User Settings</li>
-
+<li>Basic Admin Account List/Remove Users</li>
 
 <h3>Placemark Features</h3>
 <p>POI (“point of interest”)Characteristics</p>

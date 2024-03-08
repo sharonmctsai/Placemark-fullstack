@@ -7,6 +7,16 @@ export const bridgeJsonStore = {
     return db.data.bridges;
   },
 
+  async getUserBridges(userId) {
+    await db.read();
+    return db.data.bridges.filter((bridge) => bridge.userId === userId);
+  },
+
+  async getCountryBridges(countryId) {
+    await db.read();
+    return db.data.bridges.filter((bridge) => bridge.countryid === countryId);
+  },
+  
   async addBridge(countryId, bridge) {
     await db.read();
     bridge._id = v4();

@@ -1,0 +1,63 @@
+{{> menu active="admin-dashboard"}}
+
+<section class="section">
+    <h1 class="title">User List</h1>
+    {{> list-user}}
+</section>
+
+<div class="box box-link-hover-shadow has-background-warning-light">
+    <h2 class="title">
+        Application Analytics
+    </h2>
+    <table class="table is-fullwidth is-striped has-background-warning-light">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Total Numbers</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Total Users
+                </td>
+                <td>
+                    {{users.length}}
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    Total Country
+                </td>
+                <td>
+                    {{countries.length}} <!-- Corrected typo: country.length to countries.length -->
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    Total Bridges
+                </td>
+                <td>
+                    {{bridges.length}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Average Bridge Input Per User
+                </td>
+                <td>
+                    {{averageBridgesPerUser}} <!-- Corrected typo: results.averageBridgeInputPerUser to averageBridgesPerUser -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Average Bridge Per Country
+                </td>
+                <td>
+                    {{averageBridgesPerCountry}} <!-- Corrected typo: results.averageBridgePerCountry to averageBridgesPerCountry -->
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>

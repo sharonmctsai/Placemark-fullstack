@@ -1,10 +1,13 @@
-<table class="table is-fullwidth">
+<table class="ui table">
+
   <thead>
     <tr>
       <th>Name</th>
       <th>Latitude</th>
       <th>Longitude</th>
       <th>Description</th>
+      <th>Edit</th>
+      <th>Delete</th>
     </tr>
   </thead>
   <tbody>
@@ -22,6 +25,13 @@
        <td>
         {{description}}
       </td>
+
+      <td>
+        <a href="/country/{{../country._id}}/editbridge/{{_id}}" class="ui icon button">
+          <i class="fas fa-pen"></i>
+        </a>
+      </td>
+
       <td>
         <a href="/country/{{../country._id}}/deletebridge/{{_id}}" class="ui icon button">
           <i class="fas fa-trash"></i>
