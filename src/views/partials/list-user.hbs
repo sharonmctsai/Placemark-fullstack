@@ -4,7 +4,6 @@
       <th>First Name</th>
       <th>Last Name</th>
       <th>Email</th>
-      <th>Permission Level</th>
       <th>Delete User</th>
     </tr>
   </thead>
@@ -20,12 +19,10 @@
         <td>
             {{email}}
         </td>
-        <td>
-          {{permission}}
-        </td>
+       
         <td>
           <a href="/admin-dashboard/deleteuser/{{_id}}" class="button">
-      <i class="fas fa-trash"></i>
+      <i class="fas fa-trash" style="color: #DE3163"></i>
         </td>
       </tr>
     {{/each}}
